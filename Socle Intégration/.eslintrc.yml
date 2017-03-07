@@ -1,0 +1,15 @@
+extends:
+    - "defaults/configurations/google"
+globals:
+    require : true
+    describe : true
+    beforeEach : true
+    it : true
+    expect : true
+    alert : true
+    global : true
+    $ : true
+    window : true
+    Photostack : true
+rules:
+    no-unused-vars : 2
