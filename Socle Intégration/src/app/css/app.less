@@ -14,24 +14,41 @@
 
 
 /***************** GENERIC *****************/
-.demo-test-1001pharma {
-    max-width: 900px;
-    .mdl-card {
-        width: auto;
-    }
-    .card-one {
-        .img-card {
-            
+.mdl-layout__content {
+    background-color: antiquewhite;
+    .demo-test-1001pharma {
+        max-width: 900px;
+        .mdl-card {
+            width: auto;
+            .img-card {
+                display: block;
+                width: 100%;
+                height: 250px;
+                background-size: cover;
+            }
+            .mdl-button {
+                top: -28px;
+                background: rgba(255,255,255,1);
+                left: 30%; 
+            }
+            .desc-card {
+                text-align: center;
+            }
         }
-    }
-    .card-two {
-        .img-card {
-            
+        .card-one {
+            .img-card {
+                background-image: url('../../public/img/product-1.jpg');
+            }
         }
-    }
-    .card-three {
-        .img-card {
-            
+        .card-two {
+            .img-card {
+                background-image: url('../../public/img/product-2.png');
+            }
+        }
+        .card-three {
+            .img-card {
+                background-image: url('../../public/img/product-3.png');
+            }
         }
     }
 }
