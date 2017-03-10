@@ -17,9 +17,57 @@
                 top: -28px;
                 background: rgba(255,255,255,1);
                 left: 30%; 
+                margin-bottom: -20px;
             }
             .desc-card {
                 text-align: center;
+                h2, h3  {
+                    margin: 0;
+                }
+                h2 {
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    margin: 10px 0;
+                }
+                h3 {
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                .price {
+                    margin: 30px 0 15px 0;
+                    span {
+                        display: inline-block;
+                        font-size: 26px;
+                        font-weight: bold;
+                    }
+                    span.line {
+                        height: 2px;
+                        width: 40px;
+                        background-color: #E8E8E1;
+                        position: relative;
+                        top: -13px;
+                    }
+                }
+                .note {
+                    margin-bottom: 20px;
+                    direction: rtl;
+                    cursor: pointer;
+                    a {
+                        color: #aaa;
+                        text-decoration: none;
+                        font-size: 16px;
+                        transition: color .4s
+                    }
+                    a:hover,
+                    a:focus,
+                    a:hover ~ a,
+                    a:focus ~ a {
+                        color: orange;
+                        cursor: pointer;
+                    }
+                }
             }
         }
         .card-one {
